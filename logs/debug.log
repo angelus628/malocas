@@ -1,0 +1,196 @@
+2018-11-09 19:45:25 Notice: Notice (8): Undefined variable: employee in [/home/luis/development/php/malocas/src/Controller/EmployeesController.php, line 63]
+Request URL: /employees/add
+Referer URL: http://malocas.co/shifts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\EmployeesController::App\Controller\{closure}() - APP/Controller/EmployeesController.php, line 63
+Cake\ORM\ResultSet::Cake\Collection\{closure}() - CORE/src/Collection/CollectionTrait.php, line 466
+Cake\Collection\Iterator\MapReduce::_execute() - CORE/src/Collection/Iterator/MapReduce.php, line 178
+Cake\Collection\Iterator\MapReduce::getIterator() - CORE/src/Collection/Iterator/MapReduce.php, line 132
+IteratorIterator::__construct() - [internal], line ??
+Cake\Collection\Collection::__construct() - CORE/src/Collection/Collection.php, line 49
+Cake\ORM\ResultSet::combine() - CORE/src/Collection/CollectionTrait.php, line 486
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1475
+Cake\ORM\Query::_applyDecorators() - CORE/src/Datasource/QueryTrait.php, line 570
+Cake\ORM\Query::_decorateResults() - CORE/src/ORM/Query.php, line 1405
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 309
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1074
+Cake\ORM\Query::getIterator() - CORE/src/Datasource/QueryTrait.php, line 149
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 149
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2846
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 2144
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1312
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1205
+include - APP/Template/Employees/add.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-11-09 19:45:25 Notice: Notice (8): Trying to get property of non-object in [/home/luis/development/php/malocas/src/Controller/EmployeesController.php, line 63]
+Request URL: /employees/add
+Referer URL: http://malocas.co/shifts
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\EmployeesController::App\Controller\{closure}() - APP/Controller/EmployeesController.php, line 63
+Cake\ORM\ResultSet::Cake\Collection\{closure}() - CORE/src/Collection/CollectionTrait.php, line 466
+Cake\Collection\Iterator\MapReduce::_execute() - CORE/src/Collection/Iterator/MapReduce.php, line 178
+Cake\Collection\Iterator\MapReduce::getIterator() - CORE/src/Collection/Iterator/MapReduce.php, line 132
+IteratorIterator::__construct() - [internal], line ??
+Cake\Collection\Collection::__construct() - CORE/src/Collection/Collection.php, line 49
+Cake\ORM\ResultSet::combine() - CORE/src/Collection/CollectionTrait.php, line 486
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1475
+Cake\ORM\Query::_applyDecorators() - CORE/src/Datasource/QueryTrait.php, line 570
+Cake\ORM\Query::_decorateResults() - CORE/src/ORM/Query.php, line 1405
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 309
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1074
+Cake\ORM\Query::getIterator() - CORE/src/Datasource/QueryTrait.php, line 149
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 149
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2846
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 2144
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1312
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1205
+include - APP/Template/Employees/add.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-11-09 19:50:25 Notice: Notice (8): Undefined variable: employee in [/home/luis/development/php/malocas/src/Controller/EmployeesController.php, line 94]
+Request URL: /employees/edit/1
+Referer URL: http://malocas.co/employees
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\EmployeesController::App\Controller\{closure}() - APP/Controller/EmployeesController.php, line 94
+Cake\ORM\ResultSet::Cake\Collection\{closure}() - CORE/src/Collection/CollectionTrait.php, line 466
+Cake\Collection\Iterator\MapReduce::_execute() - CORE/src/Collection/Iterator/MapReduce.php, line 178
+Cake\Collection\Iterator\MapReduce::getIterator() - CORE/src/Collection/Iterator/MapReduce.php, line 132
+IteratorIterator::__construct() - [internal], line ??
+Cake\Collection\Collection::__construct() - CORE/src/Collection/Collection.php, line 49
+Cake\ORM\ResultSet::combine() - CORE/src/Collection/CollectionTrait.php, line 486
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1475
+Cake\ORM\Query::_applyDecorators() - CORE/src/Datasource/QueryTrait.php, line 570
+Cake\ORM\Query::_decorateResults() - CORE/src/ORM/Query.php, line 1405
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 309
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1074
+Cake\ORM\Query::getIterator() - CORE/src/Datasource/QueryTrait.php, line 149
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 149
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2846
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 2144
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1312
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1205
+include - APP/Template/Employees/edit.ctp, line 31
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-11-09 19:50:25 Notice: Notice (8): Trying to get property of non-object in [/home/luis/development/php/malocas/src/Controller/EmployeesController.php, line 94]
+Request URL: /employees/edit/1
+Referer URL: http://malocas.co/employees
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\EmployeesController::App\Controller\{closure}() - APP/Controller/EmployeesController.php, line 94
+Cake\ORM\ResultSet::Cake\Collection\{closure}() - CORE/src/Collection/CollectionTrait.php, line 466
+Cake\Collection\Iterator\MapReduce::_execute() - CORE/src/Collection/Iterator/MapReduce.php, line 178
+Cake\Collection\Iterator\MapReduce::getIterator() - CORE/src/Collection/Iterator/MapReduce.php, line 132
+IteratorIterator::__construct() - [internal], line ??
+Cake\Collection\Collection::__construct() - CORE/src/Collection/Collection.php, line 49
+Cake\ORM\ResultSet::combine() - CORE/src/Collection/CollectionTrait.php, line 486
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1475
+Cake\ORM\Query::_applyDecorators() - CORE/src/Datasource/QueryTrait.php, line 570
+Cake\ORM\Query::_decorateResults() - CORE/src/ORM/Query.php, line 1405
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 309
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1074
+Cake\ORM\Query::getIterator() - CORE/src/Datasource/QueryTrait.php, line 149
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 149
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2846
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 2144
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1312
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1205
+include - APP/Template/Employees/edit.ctp, line 31
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
